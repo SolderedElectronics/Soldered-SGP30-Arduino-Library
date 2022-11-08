@@ -15,7 +15,7 @@
 #include "Arduino.h"
 #include "libs/Adafruit_SGP30/Adafruit_SGP30.h"
 
-class SGP30  : public Adafruit_SGP30
+class SGP30 : public Adafruit_SGP30
 {
   public:
   protected:
