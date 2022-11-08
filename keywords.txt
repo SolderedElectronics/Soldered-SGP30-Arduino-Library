@@ -1,16 +1,25 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Adafruit_SGP30
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
 
+SGP30          KEYWORD1
+Adafruit_SGP30 KEYWORD1
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	        KEYWORD2
+softReset       KEYWORD2
+IAQinit         KEYWORD2
+IAQmeasure      KEYWORD2
+IAQmeasureRaw   KEYWORD2
+getIAQBaseline  KEYWORD2
+setIAQBaseline  KEYWORD2
+setHumidity     KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)

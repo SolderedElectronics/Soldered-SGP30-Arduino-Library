@@ -1,10 +1,10 @@
-# NAZIV PROIZVODA Arduino library
+# SGP30-2.5K air quality sensor Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](https://www.solde.red/SKU)                                                            |
+| [SGP30-2.5K air quality sensor](https://www.solde.red/333176)                                                            |
 
 OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
 
@@ -18,7 +18,7 @@ You can find hardware design for this board in NAZIV PROIZVODA hardware reposito
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-SGP30-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
@@ -27,7 +27,7 @@ Access Arduino library documentation [here](https://e-radionicacom.github.io/Sol
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered
@@ -43,7 +43,8 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 
 ### Original source
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
+This library is possible thanks to original [
+Adafruit_SGP30](https://github.com/adafruit/Adafruit_SGP30) library. Thank you, Adafruit. 
 
 
 ### Open-source license
