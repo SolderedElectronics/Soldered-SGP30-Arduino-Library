@@ -2,11 +2,11 @@
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![SGP30-2.5K Sensor](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [SGP30-2.5K air quality sensor](https://www.solde.red/333176)                                                            |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
+SGP30-2.5K + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -20,14 +20,14 @@ You can find hardware design for this board in NAZIV PROIZVODA hardware reposito
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-SGP30-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the SGP30-2.5K board
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-SGP30-Arduino-Library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered
