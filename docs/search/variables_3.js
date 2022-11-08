@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['err_0',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
+  ['rawethanol_0',['rawEthanol',['../class_adafruit___s_g_p30.html#acbd81d967af8ec077fd8fdce90c26fed',1,'Adafruit_SGP30']]],
+  ['rawh2_1',['rawH2',['../class_adafruit___s_g_p30.html#a2211c795a555895749479fc1f4e35163',1,'Adafruit_SGP30']]]
 ];

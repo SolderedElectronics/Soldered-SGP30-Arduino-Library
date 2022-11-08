@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html',1,'EasyC'],['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC::EasyC()']]],
-  ['easyc_2ehpp_1',['easyC.hpp',['../easy_c_8hpp.html',1,'']]],
-  ['err_2',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
+  ['generatecrc_0',['generateCRC',['../class_adafruit___s_g_p30.html#a7594344615344c5b980da73cfdcae7d3',1,'Adafruit_SGP30']]],
+  ['getiaqbaseline_1',['getIAQBaseline',['../class_adafruit___s_g_p30.html#ad98238628bb13cdc18a704b209952273',1,'Adafruit_SGP30']]]
 ];

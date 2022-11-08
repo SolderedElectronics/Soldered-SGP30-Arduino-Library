@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['begin_0',['begin',['../class_adafruit___s_g_p30.html#adc6a2a288926b536bc38170f882d42d4',1,'Adafruit_SGP30']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['defaultaddress_0',['defaultAddress',['../class_easy_c.html#a9052ae674b3553bbb19283278299f395',1,'EasyC']]]
+  ['pin_0',['pin',['../class_s_g_p30.html#ac135dc536627fdb1e11e147190642abb',1,'SGP30']]]
 ];
