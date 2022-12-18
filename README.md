@@ -6,7 +6,7 @@
 | :---------------------------------------------------------------------------------------------: |
 | [SGP30-2.5K air quality sensor](https://www.solde.red/333176)                                                            |
 
-SGP30-2.5K + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
+SGP30-2.5K compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -14,11 +14,11 @@ SGP30-2.5K + LINK NA [easyC ecosystem](https://www.soldered.com/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in NAZIV PROIZVODA hardware repository
+You can find hardware design for this board in SGP30-2.5K air quality sensor hardware repository
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-SGP30-Arduino-Library/).
+Access Arduino library documentation [here](https://solderedelectronics.github.io/Soldered-SGP30-Arduino-Library/).
 
 - Tutorial for using the SGP30-2.5K board
 - Installing an Arduino library
