@@ -3,8 +3,12 @@
  *
  * @file        SGP_30_Test.ino
  * @brief       Example by the Adafruit modified by Soldered.com
- * 
  *              Connect SGP30 sensor to the Dasduino and open the Serial Monitor at 115200 baud rate.
+ * 
+ *              Don't have Dasduino or easyC cable? Get it here:
+ *              Dasduino: https://soldered.com/categories/dasduino-arduino/
+ *              easyC: https://soldered.com/product/easyc-cable-20cm/
+ * 
  *              This example will show you how to read TVOC, eCO2 and raw data from the SGP30 sensor
  *              and also print baseline values every 30 readings.
  *
@@ -108,7 +112,7 @@ void loop()
     {
         counter = 0;
 
-        // According to Adafruit, The 'problem' with these sensors is that the baseline changes, often with humidity, temperature, and other nongas-related-events.
+        // According to Adafruit, the 'problem' with these sensors is that the baseline changes, often with humidity, temperature, and other nongas-related-events.
         // To keep the values coming out reasonable, you'll need to calibrate the sensor.
         // Sensor must to work for 12 hours until the baseline can be stored.
         // This will ensure an optimal behavior for the next time it starts up.

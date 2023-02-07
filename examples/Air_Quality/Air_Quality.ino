@@ -2,8 +2,12 @@
  **************************************************
  *
  * @file        Air_Quality.ino
- * @brief       This example shows how to read eCO2 i TVOC 
- *              values from the SGP30-2.5K sensor air quality sensor.
+ * @brief       This example shows how to read eCO2 i TVOC values from the SGP30-2.5K sensor air quality sensor.
+ *              Connect SGP30 sensor to the Dasduino and open the Serial Monitor at 115200 baud rate.
+ * 
+ *              Don't have Dasduino or easyC cable? Get it here:
+ *              Dasduino: https://soldered.com/categories/dasduino-arduino/
+ *              easyC: https://soldered.com/product/easyc-cable-20cm/
  *              
  *              More about this kind of sensor: 
  *              https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf
