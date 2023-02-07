@@ -1,9 +1,12 @@
 /**
  **************************************************
  *
- * @file        AirQuality.ino
- * @brief       This example shows how to read eCO2 i TVOC values from the SGP30-2.5K sensor air quality sensor
- *
+ * @file        Air_Quality.ino
+ * @brief       This example shows how to read eCO2 i TVOC 
+ *              values from the SGP30-2.5K sensor air quality sensor.
+ *              
+ *              More about this kind of sensor: 
+ *              https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf
  *
  *
  * @authors     Karlo Leksic for Soldered.com
@@ -18,7 +21,7 @@ SGP30 sgp; // SGP30 sensor library constructor
 
 void setup()
 {
-    Serial.begin(9600);                // Start serial communication of 9600 baud speed
+    Serial.begin(115200);              // Start serial communication of 115200 baud speed
     Serial.println("SGP30-2.5K test"); // Display a message to see if we are connected to Arduino
 
     if (!sgp.begin()) // Check if it is possible to find the sensor on the I2C connection
@@ -45,7 +48,8 @@ void loop()
     }
     else
     {
-        // Print baseline values on the serial monitor
+        // Print measured values on the serial monitor.
+        // The first 10-20 readings will always be "TVOC: 0 ppb  eCO2: 400 ppm" because the sensor is warming up.
         Serial.print(F("TVOC: "));
         Serial.print(sgp.TVOC);
         Serial.print(F(" ppb\t"));
@@ -54,5 +58,6 @@ void loop()
         Serial.println(F(" ppm"));
     }
 
+    // Delay between measurements
     delay(1000);
 }
