@@ -21,10 +21,7 @@
 
 SGP30 sgp;
 
-/* return absolute humidity [mg/m^3] with approximation formula
- * @param temperature [°C]
- * @param humidity [%RH]
- */
+// Return absolute humidity [mg/m^3] with approximation formula
 uint32_t getAbsoluteHumidity(float temperature, float humidity)
 {
     // approximation formula from Sensirion SGP30 Driver Integration chapter 3.15
@@ -44,7 +41,7 @@ void setup()
     // Try to init sensor
     if (!sgp.begin())
     {
-        // If sensor init fails, print the message and stop the program using the infinity loop
+        // If sensor init fails, print the message and stop the program with an infinite loop
         Serial.println("Sensor not found :(");
         while (1)
             ;
